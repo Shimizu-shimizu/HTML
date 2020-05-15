@@ -1,0 +1,183 @@
+body {
+  background-color:#000000;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 20px;
+}
+
+.container {
+  width: 920px;
+  margin: 0 auto 40px auto;
+}
+
+.header-title-area {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 50px;
+  color:#ffffff;
+  text-align: center;
+}
+
+.text-sub {
+  color:#ff00ff;
+  text-align: center;
+}
+
+
+.header-navigation {
+  background-color: #ffff00;
+  padding: 20px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  text-align: center;
+  padding: 0 30px;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color:#000000;
+  text-decoration: none;
+}
+
+.main {
+  width: 920px;
+  height: 660px;
+  margin: 0 auto 40px auto;
+}
+
+.left-contents {
+  width: 590px;
+  height: 640px;
+  float: left;
+  margin: 10px 10px;
+  margin-right: 20px;
+}
+
+.image-and-contents {
+  background-color: #ff0000;
+  width: 590px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.card-contents {
+  width: 380px;
+  height: 200px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.card-contents:last-child {
+  margin-bottom: 0;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  display: block;
+  float: left;
+  margin-right:10px;
+}
+
+.image:last-child {
+  margin-bottom: 0;
+}
+
+.blog-date {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #800080;
+}
+
+.blog-title {
+  font-size: 25px;
+  color: #ffff00;
+}
+
+.blog-content {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.right-contents {
+  width:300px;
+  height:450px;
+  float: left;
+}
+
+.right-title-area {
+  width: 300px;
+  height: 50px;
+}
+
+.right-title {
+  font-size: 30px;
+  text-align: center;
+  color: #00bfff;
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+.right-image-and-contents {
+  background-color:#800080;
+  width: 300px;
+  height: 100px;
+  margin-top: 10px;
+  float: left;
+  
+}
+
+.right-card-contents {
+  width:180px;
+  height:100px;
+  margin-top: 10px;
+  float: left;
+}
+
+.right-blog-date {
+ font-size: 13px;
+ color: #ffffff;
+}
+
+.image-smale {
+  width: 100px;
+  height: 100px;
+  float: left;
+  display: block;
+}
+
+.right-blog-title {
+  font-size: 20px;
+  color:#ff0000;
+}
+
+.copy-right {
+  font-size: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
